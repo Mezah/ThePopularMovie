@@ -34,7 +34,6 @@ public class MainFragment extends Fragment implements LoaderManager.LoaderCallba
     private ClickableCallback mClickCallback;
     private String movieOrder;
     private GridView mMovieGrid;
-    private MoviesAdapter mMovieAdapter;
     private MovieCursorAdapter movieCursor;
     private boolean mTwoPane;
 
