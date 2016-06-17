@@ -188,7 +188,7 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
 
         getActivity().getContentResolver().insert(FavoriteTable.TABLE_CONTENT_URI,values);
 
-        Toast.makeText(getActivity(), "Movie "+movieId+" Saved ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(), "Movie Saved ", Toast.LENGTH_SHORT).show();
 
     }
 
