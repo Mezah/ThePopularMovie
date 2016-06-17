@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Clic
 
 
     @Override
-    public void onMovieSelect(PopMovie movie) {
+    public void onMovieSelect(Uri movie) {
         if(mTwoPane){
             // the tablet view is used
             Bundle bundle =new Bundle();
