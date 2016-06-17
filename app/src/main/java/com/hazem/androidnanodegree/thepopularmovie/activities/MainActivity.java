@@ -1,12 +1,12 @@
 package com.hazem.androidnanodegree.thepopularmovie.activities;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -14,8 +14,6 @@ import android.view.MenuItem;
 import com.hazem.androidnanodegree.thepopularmovie.R;
 import com.hazem.androidnanodegree.thepopularmovie.fragments.DetailFragment;
 import com.hazem.androidnanodegree.thepopularmovie.fragments.MainFragment;
-import com.hazem.androidnanodegree.thepopularmovie.objects.PopMovie;
-import com.roughike.bottombar.BottomBar;
 
 /**
  * Created by Mezah on 5/7/2016.
@@ -29,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Clic
     public static final String MOVIE_DETAIL="MOVIE";
     private boolean mTwoPane;
     private Toolbar appToolbar;
-    private BottomBar mBottomBar;
 
 
     @Override
