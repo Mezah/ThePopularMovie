@@ -19,7 +19,6 @@ import android.widget.GridView;
 
 import com.hazem.androidnanodegree.thepopularmovie.R;
 import com.hazem.androidnanodegree.thepopularmovie.adapters.MovieCursorAdapter;
-import com.hazem.androidnanodegree.thepopularmovie.adapters.MoviesAdapter;
 import com.hazem.androidnanodegree.thepopularmovie.data.MovieContract;
 import com.hazem.androidnanodegree.thepopularmovie.service.PopularMovieService;
 
