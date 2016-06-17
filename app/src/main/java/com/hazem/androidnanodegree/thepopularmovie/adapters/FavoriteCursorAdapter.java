@@ -118,7 +118,7 @@ public class FavoriteCursorAdapter extends CursorAdapter {
 
         if(rowCount>0){
 
-            Toast.makeText(context, "Movie "+movieId+" Deleted", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Movie  Deleted", Toast.LENGTH_SHORT).show();
         }
     }
 }
