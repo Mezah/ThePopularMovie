@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">The Popular Movie</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="highest_rated">Highest Rated</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="make_favorite">MARK AS FAVORITE</string>
+    <string name="trailer_title">Trailers:</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- Bottom Navigation Items-->
+    <string name="most_popular_nav">POPULAR</string>
+    <string name="high_rated_nav">HOT</string>
+    <string name="my_favorite_nav">FAVORITE</string>
+
+    <!--app bar details-->
+    <string name="app_bar_name">app_toolbar</string>
+
+    <!--Demo text-->
+    <string name="demo_plot">Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.</string>
+    <string name="demo_movie_name">13 hours the secret soldiers of benghazi</string>
+    <string name="demo_movie_rate">8/10</string>
+    <string name="demo_movie_year">2016</string>
+    <string name="demo_movie_review">A funny movie with a romantic love story.\r\n\r\n Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary. His world comes crashing down when evil scientist Ajax (Ed Skrein) tortures, disfigures and transforms him into Deadpool. \r\n\r\nThe rogue experiment leaves Deadpool with accelerated healing powers and a twisted sense of humor. With help from mutant allies Colossus and Negasonic Teenage Warhead (Brianna Hildebrand), Deadpool uses his new skills to hunt down the man who nearly destroyed his life.",</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="reviews_title">Reviews</string>
+    <string name="show_review">Reviews</string>
+    <string name="trailers_title">Trailers</string>
+    <string name="show_trailer">Trailers</string>
+</resources>

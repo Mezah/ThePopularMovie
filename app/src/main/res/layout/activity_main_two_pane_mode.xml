@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This layout will be used in two pane mode-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <include layout="@layout/main_app_toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:divider="?android:attr/dividerHorizontal"
+        >
+
+
+        <!--This will host the list of movies-->
+        <FrameLayout
+            android:id="@+id/main_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+        </FrameLayout>
+
+        <!--This will host movie details-->
+        <FrameLayout
+            android:id="@+id/movie_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            >
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

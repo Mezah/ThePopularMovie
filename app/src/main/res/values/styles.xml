@@ -1,0 +1,59 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Toolbar Theme-->
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+
+        <!-- Color of toolbar title-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- Color of toolbar subtitle and menu icon-->
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+
+    </style>
+
+    <!-- Theme of toolbar menu-->
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!-- color of menu item-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--color of menu background-->
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+
+    <!--Styling text view-->
+    <style name="TextViewTheme">
+
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+
+
+    </style>
+
+    <style name="TrailerTextViewStyle">
+
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

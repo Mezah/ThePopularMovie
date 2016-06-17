@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- this will be used to point to the layout that will be used in tablet mode -->
+
+    <!--<item name="activity_master_detail_flow" type="layout">@layout/activity_main_two_pane_mode</item>-->
+    <item name="activity_master_detail_flow" type="layout">@layout/activity_dashboard_two_pane</item>
+
+</resources>

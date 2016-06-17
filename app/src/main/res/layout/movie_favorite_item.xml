@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/movie_favorite_poster"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        tools:src="@mipmap/ic_launcher"
+        android:scaleType="centerInside"
+        android:layout_margin="3dp"
+        >
+    </ImageView>
+
+        <TextView
+            android:id="@+id/movie_favorite_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/movie_favorite_poster"
+            android:layout_toEndOf="@id/movie_favorite_poster"
+            android:layout_margin="@dimen/text_view_margin"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:minLines="2"
+            tools:text="MovieTitle"
+            />
+
+        <TextView
+            android:id="@+id/movie_favorite_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/movie_favorite_poster"
+            android:layout_toRightOf="@id/movie_favorite_poster"
+            android:layout_below="@id/movie_favorite_title"
+            android:layout_margin="@dimen/text_view_margin"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textStyle="italic|bold"
+            tools:text="2015"
+            />
+
+        <TextView
+            android:id="@+id/movie_favorite_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/movie_favorite_poster"
+            android:layout_toEndOf="@id/movie_favorite_poster"
+            android:layout_below="@id/movie_favorite_year"
+            android:layout_margin="@dimen/text_view_margin"
+            android:textSize="12sp"
+            android:textStyle="italic|bold"
+            tools:text="8/10"
+            />
+
+
+        <ImageButton
+            android:id="@+id/movie_favorite_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/movie_favorite_poster"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_delete_forever_black_36dp"
+             />
+
+
+</RelativeLayout>

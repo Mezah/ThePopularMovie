@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- this will be used to point to the layout that will be used in phone mode -->
+
+    <!--<item name="activity_master_detail_flow" type="layout">@layout/activity_main</item>-->
+    <item name="activity_master_detail_flow" type="layout">@layout/dashboard_activity_layout</item>
+
+</resources>
